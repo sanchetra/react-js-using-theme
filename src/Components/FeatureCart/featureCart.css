@@ -1,0 +1,24 @@
+.link-container .centered-image {
+  object-fit: contain;
+}
+
+.text-cate {
+  text-decoration: none !important;
+}
+.cate-container {
+  color: inherit; /* Prevent color change on hover */
+  text-decoration: none; /* Ensure no underline appears on hover */
+}
+.cate-container:hover {
+  color: inherit; /* Prevent color change on hover */
+  text-decoration: none; /* Ensure no underline appears on hover */
+}
+.go-shop-btn:hover {
+  transition: ease-in-out;
+  transition-duration: 1s;
+  background-color: rgb(18, 95, 59) !important;
+}
+.cate-img {
+  margin: 0 !important;
+}
+

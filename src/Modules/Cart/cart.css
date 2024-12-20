@@ -1,0 +1,27 @@
+.cart-img-container {
+  width: 150px; /* Fixed width for the image container */
+  height: 150px; /* Fixed height for the image container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Ensures content doesn't overflow */ /* Optional: adds a neutral background */
+  border-radius: 8px; /* Optional: rounded corners */
+}
+
+.cart-img-container img {
+  width: 100%; /* Ensures the image fills the container */
+  height: 100%; /* Ensures the image fills the container */
+  object-fit: cover; /* Crops the image to fit within the container */
+}
+
+.cart-description {
+  flex-grow: 1; /* Takes up remaining horizontal space */
+  height: 150px; /* Matches the image container height */
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically centers the text */
+}
+.remove-btn {
+  cursor: pointer;
+}

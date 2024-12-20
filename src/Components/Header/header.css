@@ -1,0 +1,28 @@
+/* Nav */
+#templatemo_nav_top {
+  min-height: 40px;
+}
+
+#templatemo_nav_top * {
+  font-size: .9em !important;
+}
+
+#templatemo_main_nav a {
+  color: #212934;
+}
+
+#templatemo_main_nav a:hover {
+  color: #9bcfa8;
+}
+.add-to-cart-btn {
+  background-color: rgb(25, 135, 84);
+  color: white !important;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+}
+.add-to-cart-btn:hover {
+  transition: ease-in-out;
+  transition-duration: 1s;
+  background-color: rgb(18, 95, 59);
+}

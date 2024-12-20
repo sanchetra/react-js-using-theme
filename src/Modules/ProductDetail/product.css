@@ -1,0 +1,35 @@
+/* Ensure the parent container takes full height */
+.card-img {
+  height: 100%; /* Makes the image container take full height */
+  object-fit: contain; /* Ensures the image is scaled without cropping */
+  padding: 30px;
+}
+
+/* Ensure the image doesn't overflow the container */
+#product-detail {
+  width: 100%;
+  height: 100%; /* Matches the container height */
+  object-fit: contain; /* Adjusts the image inside the container */
+}
+.buy-btn {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(25, 135, 84);
+  color: white;
+  padding: 15px;
+}
+.buy-btn:hover {
+  transition: ease-in-out;
+  transition-duration: 1s;
+  background-color: rgb(18, 95, 59) !important;
+}
+.description-text{
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.specification-text {
+  line-height: 20px;
+}
+.product-card {
+  height: 500px;
+}

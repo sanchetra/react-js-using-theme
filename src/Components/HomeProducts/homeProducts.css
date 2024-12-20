@@ -1,0 +1,33 @@
+.product-image {
+  height: 400px !important; /* Default height */
+  object-fit: contain !important;
+  object-position: center;
+  width: 100%;
+  padding: 50px;
+}
+.pro-img {
+  height: 300px;
+  object-fit: contain !important;
+}
+
+.card-text {
+  display: -webkit-box; /* Enables the multi-line ellipsis behavior */
+  -webkit-box-orient: vertical; /* Sets the box orientation to vertical */
+  overflow: hidden; /* Ensures text is clipped when it overflows */
+  text-overflow: ellipsis; /* Adds ellipsis (...) at the end of clipped text */
+  height: calc(1.2em * 3); /* Adjust height based on line height and number of lines */
+  line-height: 1.2em; /* Sets the line height to control spacing */
+}
+
+.product-title {
+  font-weight: 400 !important;
+}
+.card-body {
+   line-height: 10px;
+}
+
+@media (min-width: 768px) {
+  .product-image {
+    height: 200px; /* Larger height for medium screens and up */
+  }
+}

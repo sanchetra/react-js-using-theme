@@ -1,0 +1,11 @@
+.banner-img {
+  height: 500px;
+  mix-blend-mode: multiply;
+  transition: opacity 0.1s ease-in-out !important; /* Smooth fading during transition */
+  opacity: 1;
+}
+
+/* Smooth background color change */
+.carousel-item {
+  transition: background 0.2s ease-in-out; 
+}
